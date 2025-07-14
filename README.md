@@ -8,7 +8,7 @@
 
 
 
-Hi! This is a cute little project I made to track and match players across two videos (Broadcast & Tacticam). I used Python, YOLO (object detection), OpenCV, Flask, and a simple web dashboard to see the results.
+Hi! This is a small project I made to track and match players across two videos (Broadcast & Tacticam). I used Python, YOLO (object detection), OpenCV, Flask, and a simple web dashboard to see the results.
 
 Everything runs offline, just on your computer — no internet required!
 
