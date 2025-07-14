@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Player Mapping Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+        }
+        canvas {
+            max-width: 800px;
+            margin: 20px 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Player Mapping Dashboard</h1>
+
+        <h2>Mapping Animation</h2>
+        <img src="{{ url_for('static', filename='matching_animation.gif') }}" alt="Matching Animation">
+
+        <h2>Mapping Confidence Scores</h2>
+        <canvas id="confidenceChart"></canvas>
+        <div id="chartError" class="error"></div>
+    </div>
+
+    <script>
+        const ctx = document.getElementById('confidenceChart').getContext('2d');
+        const chartData = {
+            type: 'bar',
+            data: {
+                labels: [
+                    'T0->B28', 'T1->B12', 'T2->B29', 'T3->B27', 'T4->B10', 'T5->B22', 'T6->B37', 'T7->B3', 'T8->B11', 'T9->B49',
+                    'T10->B44', 'T11->B17', 'T12->B23', 'T13->B25', 'T14->B26', 'T15->B16', 'T16->B14', 'T17->B57', 'T18->B9',
+                    'T19->B31', 'T20->B58', 'T21->B54', 'T22->B34', 'T23->B35', 'T25->B42', 'T26->B18', 'T27->B45', 'T30->B46',
+                    'T31->B41', 'T32->B40', 'T35->B21', 'T36->B24', 'T37->B48'
+                ],
+                datasets: [{
+                    label: 'Mapping Confidence',
+                    data: [
+                        0.766, 0.812, 0.766, 0.697, 0.762, 0.742, 0.781, 0.719, 0.727, 0.787,
+                        0.767, 0.737, 0.701, 0.683, 0.742, 0.808, 0.720, 0.787, 0.730, 0.764,
+                        0.757, 0.665, 0.754, 0.746, 0.670, 0.662, 0.732, 0.660, 0.738, 0.668,
+                        0.738, 0.713, 0.780
+                    ],
+                    backgroundColor: ['#36A2EB', '#FF6384', '#FFCE56', '#4BC0C0', '#9966FF'],
+                    borderColor: ['#2A7ABF', '#D54F6A', '#D4A017', '#3A9A9A', '#7A4FD6'],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 1,
+                        title: { display: true, text: 'Similarity Score' }
+                    },
+                    x: {
+                        title: { display: true, text: 'Player Mappings' }
+                    }
+                },
+                plugins: {
+                    title: { display: true, text: 'Mapping Confidence Scores' }
+                }
+            }
+        };
+
+        try {
+            new Chart(ctx, chartData);
+        } catch (error) {
+            console.error('Error rendering chart:', error);
+            document.getElementById('chartError').textContent = 'Failed to render chart: ' + error.message;
+        }
+    </script>
+</body>
+</html>

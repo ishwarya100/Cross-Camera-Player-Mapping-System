@@ -1,0 +1,626 @@
+{
+  "timestamp": "2025-07-14 01:12:00",
+  "video_metadata": {
+    "broadcast": {
+      "total_frames": 132,
+      "fps": 24.81203007518797,
+      "duration": 5.32
+    },
+    "tacticam": {
+      "total_frames": 201,
+      "fps": 24.63235294117647,
+      "duration": 8.16
+    }
+  },
+  "player_mappings": {
+    "0": 28,
+    "1": 12,
+    "2": 29,
+    "3": 27,
+    "4": 10,
+    "5": 22,
+    "6": 37,
+    "7": 3,
+    "8": 11,
+    "9": 49,
+    "10": 44,
+    "11": 17,
+    "12": 23,
+    "13": 25,
+    "14": 26,
+    "15": 16,
+    "16": 14,
+    "17": 57,
+    "18": 9,
+    "19": 31,
+    "20": 58,
+    "21": 54,
+    "22": 34,
+    "23": 35,
+    "25": 42,
+    "26": 18,
+    "27": 45,
+    "30": 46,
+    "31": 41,
+    "32": 40,
+    "35": 21,
+    "36": 24,
+    "37": 48
+  },
+  "mapping_details": {
+    "T0_to_B28": {
+      "similarity_score": 0.7663982995943676,
+      "tacticam_detections": 195,
+      "broadcast_detections": 38,
+      "tacticam_confidence": 0.8620620059970364,
+      "broadcast_confidence": 0.8275627835506645
+    },
+    "T1_to_B12": {
+      "similarity_score": 0.8123490886693356,
+      "tacticam_detections": 200,
+      "broadcast_detections": 40,
+      "tacticam_confidence": 0.8955357712749624,
+      "broadcast_confidence": 0.6040786849418986
+    },
+    "T2_to_B29": {
+      "similarity_score": 0.7663233367601108,
+      "tacticam_detections": 199,
+      "broadcast_detections": 8,
+      "tacticam_confidence": 0.8704742732011963,
+      "broadcast_confidence": 0.8368807677179575
+    },
+    "T3_to_B27": {
+      "similarity_score": 0.6970542622020242,
+      "tacticam_detections": 187,
+      "broadcast_detections": 80,
+      "tacticam_confidence": 0.8613478832455514,
+      "broadcast_confidence": 0.8817548874678719
+    },
+    "T4_to_B10": {
+      "similarity_score": 0.7628874044028723,
+      "tacticam_detections": 201,
+      "broadcast_detections": 7,
+      "tacticam_confidence": 0.9060745559902604,
+      "broadcast_confidence": 0.612601637840271
+    },
+    "T5_to_B22": {
+      "similarity_score": 0.7428669380332322,
+      "tacticam_detections": 66,
+      "broadcast_detections": 55,
+      "tacticam_confidence": 0.9202284082142604,
+      "broadcast_confidence": 0.7056505874378246
+    },
+    "T6_to_B37": {
+      "similarity_score": 0.7817183695321697,
+      "tacticam_detections": 201,
+      "broadcast_detections": 59,
+      "tacticam_confidence": 0.891793754304849,
+      "broadcast_confidence": 0.846490196834542
+    },
+    "T7_to_B3": {
+      "similarity_score": 0.7194021349242685,
+      "tacticam_detections": 201,
+      "broadcast_detections": 14,
+      "tacticam_confidence": 0.9199524870752797,
+      "broadcast_confidence": 0.8422510947784758
+    },
+    "T8_to_B11": {
+      "similarity_score": 0.7273952524437565,
+      "tacticam_detections": 41,
+      "broadcast_detections": 47,
+      "tacticam_confidence": 0.7248920158912782,
+      "broadcast_confidence": 0.6356357663621953
+    },
+    "T9_to_B49": {
+      "similarity_score": 0.7873928803716268,
+      "tacticam_detections": 196,
+      "broadcast_detections": 20,
+      "tacticam_confidence": 0.8767985654745621,
+      "broadcast_confidence": 0.5451883497948984
+    },
+    "T10_to_B44": {
+      "similarity_score": 0.7670763912191675,
+      "tacticam_detections": 186,
+      "broadcast_detections": 43,
+      "tacticam_confidence": 0.845073982888691,
+      "broadcast_confidence": 0.8702703798386546
+    },
+    "T11_to_B17": {
+      "similarity_score": 0.7378138305938942,
+      "tacticam_detections": 198,
+      "broadcast_detections": 121,
+      "tacticam_confidence": 0.9038275740202737,
+      "broadcast_confidence": 0.907823512591452
+    },
+    "T12_to_B23": {
+      "similarity_score": 0.7017558737026661,
+      "tacticam_detections": 194,
+      "broadcast_detections": 40,
+      "tacticam_confidence": 0.9046385628898008,
+      "broadcast_confidence": 0.7008123554912016
+    },
+    "T13_to_B25": {
+      "similarity_score": 0.6830674005822956,
+      "tacticam_detections": 194,
+      "broadcast_detections": 101,
+      "tacticam_confidence": 0.9036123011111511,
+      "broadcast_confidence": 0.9308554857963797
+    },
+    "T14_to_B26": {
+      "similarity_score": 0.742174439117113,
+      "tacticam_detections": 181,
+      "broadcast_detections": 65,
+      "tacticam_confidence": 0.8891498075055053,
+      "broadcast_confidence": 0.9053176647532901
+    },
+    "T15_to_B16": {
+      "similarity_score": 0.8081452565398535,
+      "tacticam_detections": 124,
+      "broadcast_detections": 81,
+      "tacticam_confidence": 0.8165715219529044,
+      "broadcast_confidence": 0.7936695488601624
+    },
+    "T16_to_B14": {
+      "similarity_score": 0.720928525822907,
+      "tacticam_detections": 39,
+      "broadcast_detections": 20,
+      "tacticam_confidence": 0.9174755610910414,
+      "broadcast_confidence": 0.8586442504745264
+    },
+    "T17_to_B57": {
+      "similarity_score": 0.7878902173646283,
+      "tacticam_detections": 195,
+      "broadcast_detections": 5,
+      "tacticam_confidence": 0.9090306894413306,
+      "broadcast_confidence": 0.8766832798719406
+    },
+    "T18_to_B9": {
+      "similarity_score": 0.7301179851285868,
+      "tacticam_detections": 153,
+      "broadcast_detections": 87,
+      "tacticam_confidence": 0.8828946623000419,
+      "broadcast_confidence": 0.7335126287525388
+    },
+    "T19_to_B31": {
+      "similarity_score": 0.7641047943803628,
+      "tacticam_detections": 185,
+      "broadcast_detections": 5,
+      "tacticam_confidence": 0.8013456001439386,
+      "broadcast_confidence": 0.845215916633606
+    },
+    "T20_to_B58": {
+      "similarity_score": 0.7573515666358872,
+      "tacticam_detections": 193,
+      "broadcast_detections": 5,
+      "tacticam_confidence": 0.851933616598193,
+      "broadcast_confidence": 0.8088747933506966
+    },
+    "T21_to_B54": {
+      "similarity_score": 0.6654073610552074,
+      "tacticam_detections": 22,
+      "broadcast_detections": 15,
+      "tacticam_confidence": 0.7105937240042692,
+      "broadcast_confidence": 0.5447572563462018
+    },
+    "T22_to_B34": {
+      "similarity_score": 0.7545850058429627,
+      "tacticam_detections": 150,
+      "broadcast_detections": 22,
+      "tacticam_confidence": 0.8414961817386686,
+      "broadcast_confidence": 0.6920838090664176
+    },
+    "T23_to_B35": {
+      "similarity_score": 0.7460408182906333,
+      "tacticam_detections": 161,
+      "broadcast_detections": 32,
+      "tacticam_confidence": 0.8928310974217135,
+      "broadcast_confidence": 0.9080587761093477
+    },
+    "T25_to_B42": {
+      "similarity_score": 0.6706956721967587,
+      "tacticam_detections": 134,
+      "broadcast_detections": 41,
+      "tacticam_confidence": 0.9024881416475767,
+      "broadcast_confidence": 0.5973572380839649
+    },
+    "T26_to_B18": {
+      "similarity_score": 0.6621060640164003,
+      "tacticam_detections": 5,
+      "broadcast_detections": 5,
+      "tacticam_confidence": 0.49198946729302406,
+      "broadcast_confidence": 0.46390300802886486
+    },
+    "T27_to_B45": {
+      "similarity_score": 0.7322911663156143,
+      "tacticam_detections": 23,
+      "broadcast_detections": 11,
+      "tacticam_confidence": 0.578162156054006,
+      "broadcast_confidence": 0.7378446527000051
+    },
+    "T30_to_B46": {
+      "similarity_score": 0.6606967420978033,
+      "tacticam_detections": 38,
+      "broadcast_detections": 36,
+      "tacticam_confidence": 0.4783465348612671,
+      "broadcast_confidence": 0.9038151510039596
+    },
+    "T31_to_B41": {
+      "similarity_score": 0.7386591095423941,
+      "tacticam_detections": 74,
+      "broadcast_detections": 57,
+      "tacticam_confidence": 0.8831696480735953,
+      "broadcast_confidence": 0.9090100855797387
+    },
+    "T32_to_B40": {
+      "similarity_score": 0.6689405443691786,
+      "tacticam_detections": 25,
+      "broadcast_detections": 14,
+      "tacticam_confidence": 0.6790979182225207,
+      "broadcast_confidence": 0.903596004609426
+    },
+    "T35_to_B21": {
+      "similarity_score": 0.7381401069359677,
+      "tacticam_detections": 46,
+      "broadcast_detections": 82,
+      "tacticam_confidence": 0.7969234134598162,
+      "broadcast_confidence": 0.40338151514697707
+    },
+    "T36_to_B24": {
+      "similarity_score": 0.713943958204724,
+      "tacticam_detections": 25,
+      "broadcast_detections": 29,
+      "tacticam_confidence": 0.6195728042756521,
+      "broadcast_confidence": 0.5823101782296866
+    },
+    "T37_to_B48": {
+      "similarity_score": 0.7809092485031488,
+      "tacticam_detections": 42,
+      "broadcast_detections": 30,
+      "tacticam_confidence": 0.7890441390828739,
+      "broadcast_confidence": 0.9015762132013005
+    }
+  },
+  "confidence_analysis": {
+    "high_confidence": [
+      {
+        "tacticam_id": 0,
+        "broadcast_id": 28,
+        "similarity": 0.7663982995943676,
+        "tac_detections": 195,
+        "bc_detections": 38,
+        "tac_confidence": 0.8620620059970364,
+        "bc_confidence": 0.8275627835506645
+      },
+      {
+        "tacticam_id": 1,
+        "broadcast_id": 12,
+        "similarity": 0.8123490886693356,
+        "tac_detections": 200,
+        "bc_detections": 40,
+        "tac_confidence": 0.8955357712749624,
+        "bc_confidence": 0.6040786849418986
+      },
+      {
+        "tacticam_id": 2,
+        "broadcast_id": 29,
+        "similarity": 0.7663233367601108,
+        "tac_detections": 199,
+        "bc_detections": 8,
+        "tac_confidence": 0.8704742732011963,
+        "bc_confidence": 0.8368807677179575
+      },
+      {
+        "tacticam_id": 4,
+        "broadcast_id": 10,
+        "similarity": 0.7628874044028723,
+        "tac_detections": 201,
+        "bc_detections": 7,
+        "tac_confidence": 0.9060745559902604,
+        "bc_confidence": 0.612601637840271
+      },
+      {
+        "tacticam_id": 5,
+        "broadcast_id": 22,
+        "similarity": 0.7428669380332322,
+        "tac_detections": 66,
+        "bc_detections": 55,
+        "tac_confidence": 0.9202284082142604,
+        "bc_confidence": 0.7056505874378246
+      },
+      {
+        "tacticam_id": 6,
+        "broadcast_id": 37,
+        "similarity": 0.7817183695321697,
+        "tac_detections": 201,
+        "bc_detections": 59,
+        "tac_confidence": 0.891793754304849,
+        "bc_confidence": 0.846490196834542
+      },
+      {
+        "tacticam_id": 7,
+        "broadcast_id": 3,
+        "similarity": 0.7194021349242685,
+        "tac_detections": 201,
+        "bc_detections": 14,
+        "tac_confidence": 0.9199524870752797,
+        "bc_confidence": 0.8422510947784758
+      },
+      {
+        "tacticam_id": 8,
+        "broadcast_id": 11,
+        "similarity": 0.7273952524437565,
+        "tac_detections": 41,
+        "bc_detections": 47,
+        "tac_confidence": 0.7248920158912782,
+        "bc_confidence": 0.6356357663621953
+      },
+      {
+        "tacticam_id": 9,
+        "broadcast_id": 49,
+        "similarity": 0.7873928803716268,
+        "tac_detections": 196,
+        "bc_detections": 20,
+        "tac_confidence": 0.8767985654745621,
+        "bc_confidence": 0.5451883497948984
+      },
+      {
+        "tacticam_id": 10,
+        "broadcast_id": 44,
+        "similarity": 0.7670763912191675,
+        "tac_detections": 186,
+        "bc_detections": 43,
+        "tac_confidence": 0.845073982888691,
+        "bc_confidence": 0.8702703798386546
+      },
+      {
+        "tacticam_id": 11,
+        "broadcast_id": 17,
+        "similarity": 0.7378138305938942,
+        "tac_detections": 198,
+        "bc_detections": 121,
+        "tac_confidence": 0.9038275740202737,
+        "bc_confidence": 0.907823512591452
+      },
+      {
+        "tacticam_id": 12,
+        "broadcast_id": 23,
+        "similarity": 0.7017558737026661,
+        "tac_detections": 194,
+        "bc_detections": 40,
+        "tac_confidence": 0.9046385628898008,
+        "bc_confidence": 0.7008123554912016
+      },
+      {
+        "tacticam_id": 14,
+        "broadcast_id": 26,
+        "similarity": 0.742174439117113,
+        "tac_detections": 181,
+        "bc_detections": 65,
+        "tac_confidence": 0.8891498075055053,
+        "bc_confidence": 0.9053176647532901
+      },
+      {
+        "tacticam_id": 15,
+        "broadcast_id": 16,
+        "similarity": 0.8081452565398535,
+        "tac_detections": 124,
+        "bc_detections": 81,
+        "tac_confidence": 0.8165715219529044,
+        "bc_confidence": 0.7936695488601624
+      },
+      {
+        "tacticam_id": 16,
+        "broadcast_id": 14,
+        "similarity": 0.720928525822907,
+        "tac_detections": 39,
+        "bc_detections": 20,
+        "tac_confidence": 0.9174755610910414,
+        "bc_confidence": 0.8586442504745264
+      },
+      {
+        "tacticam_id": 17,
+        "broadcast_id": 57,
+        "similarity": 0.7878902173646283,
+        "tac_detections": 195,
+        "bc_detections": 5,
+        "tac_confidence": 0.9090306894413306,
+        "bc_confidence": 0.8766832798719406
+      },
+      {
+        "tacticam_id": 18,
+        "broadcast_id": 9,
+        "similarity": 0.7301179851285868,
+        "tac_detections": 153,
+        "bc_detections": 87,
+        "tac_confidence": 0.8828946623000419,
+        "bc_confidence": 0.7335126287525388
+      },
+      {
+        "tacticam_id": 19,
+        "broadcast_id": 31,
+        "similarity": 0.7641047943803628,
+        "tac_detections": 185,
+        "bc_detections": 5,
+        "tac_confidence": 0.8013456001439386,
+        "bc_confidence": 0.845215916633606
+      },
+      {
+        "tacticam_id": 20,
+        "broadcast_id": 58,
+        "similarity": 0.7573515666358872,
+        "tac_detections": 193,
+        "bc_detections": 5,
+        "tac_confidence": 0.851933616598193,
+        "bc_confidence": 0.8088747933506966
+      },
+      {
+        "tacticam_id": 22,
+        "broadcast_id": 34,
+        "similarity": 0.7545850058429627,
+        "tac_detections": 150,
+        "bc_detections": 22,
+        "tac_confidence": 0.8414961817386686,
+        "bc_confidence": 0.6920838090664176
+      },
+      {
+        "tacticam_id": 23,
+        "broadcast_id": 35,
+        "similarity": 0.7460408182906333,
+        "tac_detections": 161,
+        "bc_detections": 32,
+        "tac_confidence": 0.8928310974217135,
+        "bc_confidence": 0.9080587761093477
+      },
+      {
+        "tacticam_id": 27,
+        "broadcast_id": 45,
+        "similarity": 0.7322911663156143,
+        "tac_detections": 23,
+        "bc_detections": 11,
+        "tac_confidence": 0.578162156054006,
+        "bc_confidence": 0.7378446527000051
+      },
+      {
+        "tacticam_id": 31,
+        "broadcast_id": 41,
+        "similarity": 0.7386591095423941,
+        "tac_detections": 74,
+        "bc_detections": 57,
+        "tac_confidence": 0.8831696480735953,
+        "bc_confidence": 0.9090100855797387
+      },
+      {
+        "tacticam_id": 35,
+        "broadcast_id": 21,
+        "similarity": 0.7381401069359677,
+        "tac_detections": 46,
+        "bc_detections": 82,
+        "tac_confidence": 0.7969234134598162,
+        "bc_confidence": 0.40338151514697707
+      },
+      {
+        "tacticam_id": 36,
+        "broadcast_id": 24,
+        "similarity": 0.713943958204724,
+        "tac_detections": 25,
+        "bc_detections": 29,
+        "tac_confidence": 0.6195728042756521,
+        "bc_confidence": 0.5823101782296866
+      },
+      {
+        "tacticam_id": 37,
+        "broadcast_id": 48,
+        "similarity": 0.7809092485031488,
+        "tac_detections": 42,
+        "bc_detections": 30,
+        "tac_confidence": 0.7890441390828739,
+        "bc_confidence": 0.9015762132013005
+      }
+    ],
+    "medium_confidence": [
+      {
+        "tacticam_id": 3,
+        "broadcast_id": 27,
+        "similarity": 0.6970542622020242,
+        "tac_detections": 187,
+        "bc_detections": 80,
+        "tac_confidence": 0.8613478832455514,
+        "bc_confidence": 0.8817548874678719
+      },
+      {
+        "tacticam_id": 13,
+        "broadcast_id": 25,
+        "similarity": 0.6830674005822956,
+        "tac_detections": 194,
+        "bc_detections": 101,
+        "tac_confidence": 0.9036123011111511,
+        "bc_confidence": 0.9308554857963797
+      },
+      {
+        "tacticam_id": 21,
+        "broadcast_id": 54,
+        "similarity": 0.6654073610552074,
+        "tac_detections": 22,
+        "bc_detections": 15,
+        "tac_confidence": 0.7105937240042692,
+        "bc_confidence": 0.5447572563462018
+      },
+      {
+        "tacticam_id": 25,
+        "broadcast_id": 42,
+        "similarity": 0.6706956721967587,
+        "tac_detections": 134,
+        "bc_detections": 41,
+        "tac_confidence": 0.9024881416475767,
+        "bc_confidence": 0.5973572380839649
+      },
+      {
+        "tacticam_id": 26,
+        "broadcast_id": 18,
+        "similarity": 0.6621060640164003,
+        "tac_detections": 5,
+        "bc_detections": 5,
+        "tac_confidence": 0.49198946729302406,
+        "bc_confidence": 0.46390300802886486
+      },
+      {
+        "tacticam_id": 30,
+        "broadcast_id": 46,
+        "similarity": 0.6606967420978033,
+        "tac_detections": 38,
+        "bc_detections": 36,
+        "tac_confidence": 0.4783465348612671,
+        "bc_confidence": 0.9038151510039596
+      },
+      {
+        "tacticam_id": 32,
+        "broadcast_id": 40,
+        "similarity": 0.6689405443691786,
+        "tac_detections": 25,
+        "bc_detections": 14,
+        "tac_confidence": 0.6790979182225207,
+        "bc_confidence": 0.903596004609426
+      }
+    ],
+    "low_confidence": [],
+    "mapping_quality_distribution": {
+      "mean_similarity": 0.736261516527028,
+      "std_similarity": 0.04166088795293293,
+      "min_similarity": 0.6606967420978033,
+      "max_similarity": 0.8123490886693356,
+      "median_similarity": 0.7386591095423941
+    },
+    "recommendations": [
+      "Good mapping quality"
+    ]
+  },
+  "statistics": {
+    "total_mapped_players": 33,
+    "broadcast_camera": {
+      "total_tracks": 36,
+      "avg_detections_per_track": 38.083333333333336,
+      "avg_confidence": 0.7575231121424046
+    },
+    "tacticam_camera": {
+      "total_tracks": 34,
+      "avg_detections_per_track": 126.82352941176471,
+      "avg_confidence": 0.8137242817506617
+    },
+    "mapping_success_rate": 97.05882352941177
+  },
+  "unmapped_players": {
+    "tacticam": [
+      34
+    ],
+    "broadcast": [
+      8,
+      15,
+      38
+    ]
+  },
+  "visualizations": {
+    "animated_overlay": "matching_animation.gif",
+    "before_after_comparison": "before_after_mapping.mp4",
+    "mapping_heatmap": "mapping_heatmap.png"
+  }
+}
